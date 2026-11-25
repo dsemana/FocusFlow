@@ -1,0 +1,18 @@
+# Student guide
+
+1. **Create your account.** Open Register, enter your name, unique email, a password of 10–128 characters containing a letter and number, and confirm it. Registration signs you in. Use Sign out in the sidebar when finished.
+2. **Set your rhythm.** In Preferences, choose your daily study limit, start/end times, available weekdays, and IANA timezone. Set reminder hours such as `24, 72`. Existing sessions stay in place when you change availability; review any overload warnings afterward.
+3. **Add your courses.** Courses → Add course. Enter a name and course code; optionally add a term, instructor, description and color. Course codes must be unique within your account. Click a course title for details or View tasks to filter its work.
+4. **Capture your work.** My tasks → Add task. Enter title, course or independent study, activity type, importance, status, estimated hours, and deadline. The date field uses your device time. Omit a deadline for flexible work.
+5. **Find what matters.** Search titles or filter by course, priority, status, or deadline. Sort by urgency, deadline, or importance; switch between list and cards. Click a title for details and Edit task to change it. The Deadlines page offers a chronological view of dated tasks.
+6. **Understand recommendations.** The overview recommends incomplete tasks based on deadline urgency, your importance setting, and effort relative to remaining time. Each recommendation explains its factors. The score is a transparent rule-based aid; you decide what to do next.
+7. **Plan your week.** Workload planner displays remaining effort, daily planned sessions, weekly capacity and workload by course/importance. Tasks with no estimate are counted separately. Click Suggest a study plan, review sessions, uncheck any you do not want, then Accept selected sessions. Discard suggestions leaves your schedule unchanged. Unallocated effort indicates that availability or deadlines need review.
+8. **Use the calendar.** Switch Month, Week, Day, or List; navigate dates with the previous/next controls and Today. Study sessions have solid course colors; due dates are labeled Due. Click a session to edit or remove it. Schedule time creates a manual session. Conflicting, over-capacity, after-deadline, and over-estimate sessions are rejected with a message.
+9. **Celebrate progress.** Complete a task using its checkbox or detail action. Dashboard progress and remaining workload update from the database. Reopen brings it back into the active plan. In progress is available in the task editor.
+10. **Check reminders.** Notifications shows deadline, overdue and overload messages. Click Check reminders, open the related task, mark an individual message read, or mark all read. Your administrator must install the supplied background job for unattended reminders. No emails or push messages are sent.
+11. **Manage your profile.** Update your name, email or password. Changing email/password requires your current password. A password change ends other signed-in sessions. Sessions expire after 30 minutes of inactivity by default.
+12. **Delete carefully.** Deleting a course preserves its tasks as independent study. Deleting a task permanently removes its deadline and planned sessions. Removing a session preserves the task. Each deletion requires confirmation.
+
+## On your phone
+
+Open navigation using the menu button in the top bar. Close it with its close button or by tapping the backdrop. Tasks initially use cards; the list switch also offers a stacked view. Tap Filters & sort to reveal the controls. Calendar initially shows the agenda; choose another view from the Calendar view selector. Editors open as bottom sheets with their actions at the bottom.

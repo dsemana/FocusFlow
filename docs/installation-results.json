@@ -1,0 +1,9 @@
+{
+  "entrypoint": "python run.py",
+  "first_start_without_env_or_database": "passed",
+  "self_registration_over_http": "passed",
+  "task_persistence_after_restart": "passed",
+  "session_and_secret_preserved_after_restart": "passed",
+  "startup_from_different_working_directory": "passed",
+  "setup_script_removed": true
+}

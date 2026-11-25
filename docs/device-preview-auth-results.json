@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-21",
+  "reproduction_before_fix": "5 failures: preview identity changes revoked login and caused login redirects",
+  "fix": "Use application-scoped basic fingerprint protection; retain server-side expiry, revocation, CSRF and credential password checks",
+  "new_regressions": 5,
+  "new_regression_failures_after_fix": 0,
+  "full_python_suite": 66,
+  "full_python_failures": 0,
+  "responsive_control_tests": 10,
+  "responsive_control_failures": 0,
+  "live_health": 200,
+  "server": "http://127.0.0.1:5000",
+  "interactive_browser_verification": "not performed"
+}

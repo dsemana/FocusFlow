@@ -1,0 +1,22 @@
+[Unit]
+Description=FocusFlow Flask application
+After=network-online.target redis-server.service
+Wants=network-online.target
+
+[Service]
+User=focusflow
+Group=focusflow
+WorkingDirectory=/srv/focusflow
+EnvironmentFile=/etc/focusflow.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/srv/focusflow/.venv/bin/gunicorn --config deploy/gunicorn.conf.py run:app
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/srv/focusflow/instance
+
+[Install]
+WantedBy=multi-user.target

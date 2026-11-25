@@ -1,0 +1,52 @@
+{
+  "users": 50,
+  "requests": 300,
+  "elapsed_seconds": 3.601,
+  "requests_per_second": 83.31,
+  "errors": 0,
+  "overall": {
+    "count": 300,
+    "median_ms": 477.38,
+    "p95_ms": 706.91,
+    "max_ms": 2062.11
+  },
+  "groups": {
+    "DELETE /tasks/<id>": {
+      "count": 50,
+      "median_ms": 646.05,
+      "p95_ms": 715.65,
+      "max_ms": 922.77
+    },
+    "GET /dashboard/summary": {
+      "count": 50,
+      "median_ms": 573.93,
+      "p95_ms": 970.34,
+      "max_ms": 1825.65
+    },
+    "GET /tasks": {
+      "count": 50,
+      "median_ms": 429.22,
+      "p95_ms": 508.08,
+      "max_ms": 1792.3
+    },
+    "GET /workload/summary": {
+      "count": 50,
+      "median_ms": 495.32,
+      "p95_ms": 573.49,
+      "max_ms": 1484.31
+    },
+    "PATCH /tasks/<id>": {
+      "count": 50,
+      "median_ms": 470.63,
+      "p95_ms": 572.83,
+      "max_ms": 693.25
+    },
+    "POST /tasks": {
+      "count": 50,
+      "median_ms": 334.53,
+      "p95_ms": 840.99,
+      "max_ms": 2062.11
+    }
+  },
+  "scope": "Authenticated local HTTP benchmark. Accounts prepared outside measured phase. No WAN, TLS, production proxy, or browser rendering."
+}

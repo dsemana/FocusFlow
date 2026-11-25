@@ -1,0 +1,18 @@
+[Unit]
+Description=Generate FocusFlow in-app reminders
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=focusflow
+Group=focusflow
+WorkingDirectory=/srv/focusflow
+EnvironmentFile=/etc/focusflow.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/srv/focusflow/.venv/bin/python -m flask --app run reminders
+ExecStart=/srv/focusflow/.venv/bin/python -m flask --app run purge-sessions
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/srv/focusflow/instance
